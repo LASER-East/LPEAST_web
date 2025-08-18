@@ -95,141 +95,46 @@
         </div>
     </header>
     <main>
+        <div class="container mt-5">
+        <h1 class="text-center">M.A.P.</h1>
         <div class="row">
-            <section class="col-md-6 text-center">
-            <div class="background-image-div mt-3">
-                <img src="images/Optimized-LR-removebg-preview.png" alt="" width="100%" class="rounded-circle spin-animation">
+            <!-- Grade 7 -->
+            <div class="col-md-3" id="grade-7">
+                <h3>Grade 7</h3>
+                <select class="custom-select" id="grade7Select" onchange="displaySection('grade7Select', 'grade7Output')">
+                    <option selected disabled>Select Section</option>
+                </select>
+                <p id="grade7Output" class="mt-2"></p>
             </div>
-        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel">LASER-web Navigation Guide</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        <b>
-                            Welcome to the LASER-web school website! Follow this guide to easily navigate its features:
-                        </b>
-                        <br>
-                    
-                    
-                           <li>
-                            <b>Login</b>
-                            <br>
-                            <b>How to Access:</b>
-                            Click the <b>"Login"</b>  button on the homepage.
-You will be redirected to the Microsoft account login page automatically.
-Enter your credentials to access your personal dashboard.
-                           </li>
-                           <br>
-                           <li>
-                            <b>Help</b>
-                            <br>
-                            <b>What You’ll Find:</b>
-<b>FAQ:</b> Common questions and answers for quick assistance.<br>
-<b>Contact Us:</b> Reach out directly to the school’s support team.<br>
-<b>Leave a Message:</b> Submit any inquiries or feedback using the message form.
-                           </li>
-                           <li>
-                            <b>Offices</b>
-                            <br>
-                            <b>What You’ll Find:</b>
-Information on non-teaching related offices:<br>
-<b>Principal’s Office</b><br>
-<b>Guidance Office</b><br>
-<b>Clinic</b><br>
-<b>Records Office</b><br>
-<b>SBM (School-Based Management)</b><br>
-                           </li>
-                           <br>
-                           <li>
-                            <b>Deparments</b>
-                            <br>
-                            <b>What You’ll Find:</b>
-Explore all subject areas offered at our school, including detailed curriculum and faculty information for each department.
-                           </li>
-                           <br>
-                           <li>
-                            <b>Resources</b>
-                            <br>
-                            Key Features:<br>
-<b>M.A.P Portal</b> Access the grade portal where teachers can input and view student grades.<br>
-<b>D.R.I.V.E</b>Access important files for information, circulation, and submissions, ensuring you have all the necessary materials.<br>
-
-                           </li>
-                           <br>
-                           <li>
-                            <b>About</b>
-                            <br>
-                            <b>What You’ll Find:</b><br>
-<b>School Information:</b> Learn about our mission, vision, and history.<br>
-<b>Organizational Chart:</b>View the organizational structure and key personnel.<br>
-<b>News:</b> Stay updated with the latest announcements and events.
-
-                           </li>
-                    </p>
-                    
-                    
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Disclaimer</button>
-                  </div>
-                </div>
-              </div>
+            <!-- Grade 8 -->
+            <div class="col-md-3" id="grade-8">
+                <h3>Grade 8</h3>
+                <select class="custom-select" id="grade8Select" onchange="displaySection('grade8Select', 'grade8Output')">
+                    <option selected disabled>Select Section</option>
+                </select>
+                <p id="grade8Output" class="mt-2"></p>
             </div>
-            <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Disclaimer</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-                        The information provided on the LASER-web school website is for general informational purposes only. While we strive to keep the content up to date and accurate, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is strictly at your own risk.
-                    </p>
-                    <p>
-                       In no event will the school be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.
-                    </p>
-                    <p>
-                        Through this website, you may be able to link to other websites which are not under the control of the school. We have no control over the nature, content, and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.
-                    </p>
-                  </div>
-                <div class="modal-footer">
-                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to Guidelines</button>
-                </div>
-              </div>
+            <!-- Grade 9 -->
+            <div class="col-md-3" id="grade-9">
+                <h3>Grade 9</h3>
+                <select class="custom-select" id="grade9Select" onchange="displaySection('grade9Select', 'grade9Output')">
+                    <option selected disabled>Select Section</option>
+                </select>
+                <p id="grade9Output" class="mt-2"></p>
             </div>
-          </div>
-          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Get Started</button>
-    </section>
-            
-            <section class="col-md-6 mb-lg-3">
-                <div class="carousel-container mt-3 me-5"> <!-- Added margin-top -->
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="2000">
-                                <img src="images/Portal1.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src="images/LR1 (2).png" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src="images/portal 2.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src="images/portal 3.PNG" class="d-block w-100" alt="...">
-                            </div>
-                            <!-- Add more carousel items as needed -->
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <!-- Grade 10 -->
+            <div class="col-md-3" id="grade-10">
+                <h3>Grade 10</h3>
+                <select class="custom-select" id="grade10Select" onchange="displaySection('grade10Select', 'grade10Output')">
+                    <option selected disabled>Select Section</option>
+                </select>
+                <p id="grade10Output" class="mt-2"></p>
+            </div>
+        </div>
+    </div>
     </main>
-    
     <footer>
+        <footer>
         <div class="row align-items-center">
             <div class="col-md-6">
                 <p class="fw-bold mb-3">CONNECT WITH US</p>
@@ -257,15 +162,13 @@ Explore all subject areas offered at our school, including detailed curriculum a
         </div>
             <p class="text-center fw-bold mt-5">© LPENHS-EastLink Creators | 2025</p>
     </div>
-    </footer>
-
-    <script src="https://kit.fontawesome.com/66f7066fbe.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/66f7066fbe.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
-
-
-
