@@ -284,7 +284,3 @@ html, body {
     display: flex;
     flex-direction: column;
 }
-
-main {
-    flex: 1; /* This allows 'main' to grow and take up space */
-}
