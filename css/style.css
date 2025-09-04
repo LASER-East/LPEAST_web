@@ -285,14 +285,10 @@ html, body {
     flex-direction: column;
 }
 
-main {
-    flex: 1; /* This allows 'main' to grow and take up space */
-}
-
-
 @media (max-width: 768px) {
   .container {
     grid-template-columns: repeat(6, 1fr);
   }
 }
+
 
