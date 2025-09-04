@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: "AUSTERITY", link: "https://depedph-my.sharepoint.com/:x:/g/personal/305434_deped_gov_ph/EUtin-3WDvtDteWgPGFpgNMBKya9e9e8JaHguDxhhPHSmQ?e=AucqnM" },
         { name: "AUTHENTICITY", link: "https://depedph-my.sharepoint.com/:x:/g/personal/305434_deped_gov_ph/EQOGXLs7Z5lMhPiJYI1Eex8BqJNPHWcBfe2s2Nq-c8eKEg?e=nuoH5Z" },
         { name: "CALMNESS", link: "https://depedph-my.sharepoint.com/:x:/g/personal/305434_deped_gov_ph/EVx5E7y5L9lFk39KcimHihMB__YhauARxCr9pj6fqmczZA?e=DT7kR3" },
-        { name: "CAMARADERIE", link: "#https://depedph-my.sharepoint.com/:x:/g/personal/305434_deped_gov_ph/Edw25h0TmPxNoN0mTAdsiggB4YnHXMc-BEbV8Ni4jezrMA?e=E98vZK" },
+        { name: "CAMARADERIE", link: "https://depedph-my.sharepoint.com/:x:/g/personal/305434_deped_gov_ph/Edw25h0TmPxNoN0mTAdsiggB4YnHXMc-BEbV8Ni4jezrMA?e=E98vZK" },
         { name: "CARING", link: "https://depedph-my.sharepoint.com/:x:/g/personal/305434_deped_gov_ph/EcaYRf3BN1lHrWXGkJxV7AEBVzCxAk_SFDdksW23jzplVQ?e=yzp2Z9" },
         { name: "CATALYST", link: "https://depedph-my.sharepoint.com/:x:/g/personal/305434_deped_gov_ph/Ebnb1FEwfvZGohxqV_jwzxIBs6M2kYr84cxZlsQ5XRpmZw?e=Ppfy7E" },
         { name: "CHAMPION", link: "https://depedph-my.sharepoint.com/:x:/g/personal/305434_deped_gov_ph/ETfBsU8XZ7pAtaGCxER_7pgBmoqgs-GSGa-dRFmToKVvEw?e=iUhSuJ" },
@@ -108,4 +108,5 @@ function displaySection(selectId, outputId) {
     if (selectedOption.value) {
         outputElement.innerHTML = `You selected: <a href="${selectedOption.value}">${selectedOption.textContent}</a>`;
     }
+
 }
